@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TYPESENSE.co</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="spidey.png" />
+</head>
+<body>
+  <main class="typing-wrapper">
+    <header>
+      <h1>🕷️ <span class="title-red">TYPESENSE</span></h1>
+      <div id="timer" class="timer">20s</div>
+      <progress id="progressBar" value="20" max="20"></progress>
+    </header>
+
+    <div id="typingBox" class="typing-box">
+      <div id="textDisplay"></div>
+      <div id="caret"></div>
+    </div>
+
+    <footer>
+      <div id="wpmCount" class="stat">WPM: --</div>
+      <div id="accuracyCount" class="stat">Accuracy: --</div>
+
+      <div class="toggle-row">
+        <label>
+          <input type="checkbox" id="autoStartToggle" checked />
+          Auto-Start
+        </label>
+      </div>
+
+      <div class="button-row">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn" disabled>Stop</button>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
